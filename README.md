@@ -62,7 +62,7 @@ Change line 12; the "if [host] =~ ..." should point to your pfSense/OPNsense IP 
 Change line 15; rename "firewall" (OPTIONAL) to identify your device (i.e. backup_firewall)
 Change line 18-27; (OPTIONAL) to point to your second PF IP address or ignore
 ```
-#### (4b) Edit 01-inputs.conf (pfelk.zip:/logstash/pipeline/01-inputs.conf)
+#### (4b) Edit 01-inputs.conf (pfelk.zip:/logstash/conf.d/01-inputs.conf)
 ```
 For pfSense uncommit line 34 and commit out line 31
 For OPNsense uncommit line 31 and commit out line 34
